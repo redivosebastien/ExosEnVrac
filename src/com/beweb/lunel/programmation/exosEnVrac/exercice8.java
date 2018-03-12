@@ -15,6 +15,7 @@ public class exercice8 {
        while(compteur>=0){
            
                 if(compteur%2==0){
+                   System.out.println(compteur+2+compteur);
                    System.out.print(compteur+"= est paire");
                    if(compteur%5==0){
                        
@@ -35,6 +36,9 @@ public class exercice8 {
                     if(compteur%10==0){
                         System.out.print(" un multiple de 10");
                     }
+                    if(compteur%5==0 && compteur%3==0){
+                           System.out.print(" vrai");
+                       }
                     
                 }
                 
